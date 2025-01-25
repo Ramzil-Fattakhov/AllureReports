@@ -4,11 +4,9 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
@@ -64,7 +62,7 @@ public class StepsTest {
     @Test
     public void testAnnotatedStep() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-        WebSteps steps = new WebSteps();
+        ramzil.fattakhov.allure.WebSteps steps = new ramzil.fattakhov.allure.WebSteps();
 
         steps.openMainPage();
         steps.searchForRepository(REPOSITORY);
