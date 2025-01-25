@@ -19,11 +19,12 @@ jobs:
       # запускаем тесты
       - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
       # скачиваем историю тестов
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./target/deploy
+          ref: gh-pages
+          path: gh-pages
       # генерируем отчет
       - uses: simple-elf/allure-report-action@master
         if: always()
