@@ -1,4 +1,4 @@
-package ramzil-fattakhov.allure;
+package ramzil.fattakhov.allure;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;

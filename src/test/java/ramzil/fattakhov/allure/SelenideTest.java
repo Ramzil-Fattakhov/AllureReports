@@ -1,4 +1,6 @@
-package ramzil-fattakhov.allure;
+package ramzil.fattakhov.allure
+
+-fattakhov.allure;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.logevents.SelenideLogger;
