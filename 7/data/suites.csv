@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2","Создание issue для авторизованного пользователя","","Sun Jan 26 17:28:47 GMT 2025","passed","Sun Jan 26 17:28:47 GMT 2025","","ramzil.fattakhov.allure.LabelsTest","ramzil.fattakhov.allure.LabelsTest","testDynamicsLabels"
+"","6665","testLambdaStep()","","Sun Jan 26 17:29:11 GMT 2025","passed","Sun Jan 26 17:29:17 GMT 2025","","ramzil.fattakhov.allure.StepsTest","ramzil.fattakhov.allure.StepsTest","testLambdaStep"
+"","6160","testAnnotatedStep()","","Sun Jan 26 17:29:05 GMT 2025","passed","Sun Jan 26 17:29:11 GMT 2025","","ramzil.fattakhov.allure.StepsTest","ramzil.fattakhov.allure.StepsTest","testAnnotatedStep"
+"","3266","testLambdaAttachments()","","Sun Jan 26 17:28:42 GMT 2025","passed","Sun Jan 26 17:28:45 GMT 2025","","ramzil.fattakhov.allure.AttachmentsTest","ramzil.fattakhov.allure.AttachmentsTest","testLambdaAttachments"
+"","2067","testAnnotatedAttachments()","","Sun Jan 26 17:28:45 GMT 2025","passed","Sun Jan 26 17:28:47 GMT 2025","","ramzil.fattakhov.allure.AttachmentsTest","ramzil.fattakhov.allure.AttachmentsTest","testAnnotatedAttachments"
+"","17437","testIssueSearch()","","Sun Jan 26 17:28:47 GMT 2025","failed","Sun Jan 26 17:29:04 GMT 2025","","ramzil.fattakhov.allure.SelenideTest","ramzil.fattakhov.allure.SelenideTest","testIssueSearch"
+"","2","Создание issue для авторизованного пользователя","","Sun Jan 26 17:28:47 GMT 2025","passed","Sun Jan 26 17:28:47 GMT 2025","","ramzil.fattakhov.allure.LabelsTest","ramzil.fattakhov.allure.LabelsTest","testStaticLabels"
